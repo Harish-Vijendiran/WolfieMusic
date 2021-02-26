@@ -6,4 +6,6 @@ client.on("ready",() =>{
     console.log("I'm Online!");
 })
 
-client.login("ODE0Njk3Njc3OTYyODcwODA2.YDhoVg.UNkeYChyeQ-bwsb8rv_oYueJShA")
+
+client.login(process.env.token)
+//process.env.token
